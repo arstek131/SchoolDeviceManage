@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Arslan\\AndroidStudioProjects\\QrCode\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Arslan\\.android\\build-cache\\cd5c54816dd3a86a891c238f39e7dcbc8f3ad76d\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Arslan\\AndroidStudioProjects\\QrCode\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Arslan\\.android\\build-cache\\cd5c54816dd3a86a891c238f39e7dcbc8f3ad76d\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Arslan\\AndroidStudioProjects\\QrCode\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\Arslan\\.android\\build-cache\\cd5c54816dd3a86a891c238f39e7dcbc8f3ad76d\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    }
+]

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:id="@+id/cardView"
+    android:backgroundTint="@android:color/darker_gray">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCespite"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@mipmap/thebigger" />
+
+        <TextView
+            android:id="@+id/txtNumeroInventario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView8"
+            android:text="text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNomeCespite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text2"
+            android:layout_below="@+id/txtNumeroInventario"
+            android:layout_toEndOf="@+id/textView8"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtDataCatalogazione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView12"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12"
+            android:text="text3"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtAula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text4"
+            android:layout_below="@+id/txtDataCatalogazione"
+            android:layout_toEndOf="@+id/textView12"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtNomeUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text5"
+            android:layout_below="@+id/txtAula"
+            android:layout_alignStart="@+id/txtAula"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imgCespite"
+            android:text="Numero inventario: "
+            
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_toEndOf="@+id/imgCespite"
+            android:text="Nome cespite:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_toEndOf="@+id/imgCespite"
+            android:text="Data catalogazione: "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_toEndOf="@+id/imgCespite"
+            android:text="Aula:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_toEndOf="@+id/imgCespite"
+            android:text="Categoria:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

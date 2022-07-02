@@ -1,0 +1,7 @@
+
+
+Databse name : Users
+
+Databse username: Qrcode
+
+Password: Pilak3994

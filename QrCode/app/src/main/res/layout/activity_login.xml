@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/def150"/>
+
+        <EditText
+            android:singleLine="true"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCC11"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_user_24dp"
+            android:drawablePadding="16dp"
+            android:hint="Username"
+            android:maxLength="16"
+            android:id="@+id/etUsername"/>
+        
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFCC11"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_lock_outline_24dp"
+            android:drawablePadding="16dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:maxLength="16"
+            android:id="@+id/etPassword"/>
+
+        <Button
+            android:background="@android:color/white"
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Accedi"
+            android:id="@+id/bLogin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Non hai un account?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" Registrati"
+            android:id="@+id/tvRegisterHere"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
