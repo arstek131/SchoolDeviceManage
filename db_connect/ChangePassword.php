@@ -4,8 +4,6 @@
 
 
 
-
-
 	$Username = $_POST["Username"];
 
 	$Password = $_POST["Password"];
@@ -13,8 +11,6 @@
 	$OldPassword = $_POST["OldPassword"];
 
 	
-
-
 
 	$sqlGetPW = "SELECT user.password from user
 
